@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://g.alicdn.com/de/prismplayer/2.8.1/skins/default/aliplayer-
+min.css" />
+    <script charset="utf-8" type="text/javascript" src="https://g.alicdn.com/de/prismplayer/2.8.1/aliplayer-min.js"></script>
+</head>
+
+<body>
+    <div class="prism-player" id="J_prismPlayer"></div>
+    <script>
+        var player = new Aliplayer({
+            id: 'J_prismPlayer',
+            width: '100%',
+            autoplay: false,
+            cover: 'http://liveroom-img.oss-cn-qingdao.aliyuncs.com/logo.png',
+            //播放配置
+            //播放方式二：根据播放凭证播放，更安全（推荐）
+            encryptType: '1', //如果播放加密视频，则需设置encryptType=1，非加密视频无需设置此项
+            vid: '846003a7a7e14c95b7a6b123d02594a3', // 阿里云中视频的id
+            playauth: 'eyJTZWN1cml0eVRva2VuIjoiQ0FJU2h3TjFxNkZ0NUIyeWZTaklyNWJtSTl1QjFLcEFnSTZDYldyR2xqVTRic2xHM3JMS3B6ejJJSDVFZW5OcUF1d2F2Lzh5bEd0VDZQZ1psck1xRjg4ZkdCYVlOWkV0c3M0T3JsNzVKcExGc3QySjZyOEpqc1VyL2ZrV3oxbXBzdlhKYXNEVkVmbDJFNVhFTWlJUi8wMGU2TC8rY2lyWXBUWEhWYlNDbFo5Z2FQa09Rd0M4ZGtBb0xkeEtKd3hrMnQxNFVtWFdPYVNDUHdMU2htUEJMVXhtdldnR2wyUnp1NHV5M3ZPZDVoZlpwMXI4eE80YXhlTDBQb1AyVjgxbExacGxlc3FwM0k0U2M3YmFnaFpVNGdscjhxbHg3c3BCNVN5Vmt0eVdHVWhKL3phTElvaXQ3TnBqZmlCMGVvUUFQb3BGcC9YNmp2QWF3UExVbTliWXhncGhCOFIrWGo3RFpZYXV4N0d6ZW9XVE84MCthS3p3TmxuVXo5bUxMZU9WaVE0L1ptOEJQdzQ0RUxoSWFGMElVRUJ5RUd5RWNQSDZwd3FTUFZqK0U1TG9pdjltamNCSHFIeno1c2VQS2xTMVJMR1U3RDBWSUpkVWJUbHphVTVJaHphNkx2TlhLRkVjS0FnNVdlMlBNYXgzYlFGRHI1M3ZzVGJiWHpaYjBtcHR1UG56ZDEwMVJuWGh4eUdWR29BQlFMWjU0ZFZvNjBqa21zTFJPTWFWWjdvL0RZdUhYQXJqMmtwRnlwMUp4cU9UdGdLcSswODlIZHlYaDJ5Rlo2N1BSSE1yRlNlM3BDaVc2aUo1WUluSHBlamFQWUZBS2h2R2ttOXhha1M1VHp4eE41N3JFM3pUbE9zNEZnTWVnMm5ZUmJ0bXVZajdQaFByU3pycW5kQ3d1QnIwV2l4dTBmcHZIc2NXcWt0MmZrMD0iLCJBdXRoSW5mbyI6IntcIkNJXCI6XCJIM1U4NWVlclkrODlTTm9rRGh3RXVYVmtjYklJb1k5QURiMXQwNHRJWjFtR2kwWDZtRGRSUnFrK2F5WE4wV0JkXCIsXCJDYWxsZXJcIjpcIk1UZXFzZkN1ZkZSdzJVbEYrM1F5Sm9aaWpjT2xHMjZLRWZ1YkR2cGFubW89XCIsXCJFeHBpcmVUaW1lXCI6XCIyMDIxLTA3LTIyVDA5OjI1OjM3WlwiLFwiTWVkaWFJZFwiOlwiODQ2MDAzYTdhN2UxNGM5NWI3YTZiMTIzZDAyNTk0YTNcIixcIlNpZ25hdHVyZVwiOlwiTXdRMHlsOHZDcHdWbGJlYlBRWGFRem56Tmc4PVwifSIsIlZpZGVvTWV0YSI6eyJTdGF0dXMiOiJOb3JtYWwiLCJWaWRlb0lkIjoiODQ2MDAzYTdhN2UxNGM5NWI3YTZiMTIzZDAyNTk0YTMiLCJUaXRsZSI6IjYgLSBXaGF0IElmIEkgV2FudCB0byBNb3ZlIEZhc3RlciIsIkNvdmVyVVJMIjoiaHR0cDovL291dGluLWEzNzA2MDk1ZGVlNTExZWJhMGE2MDAxNjNlMWM2MGRjLm9zcy1jbi1zaGFuZ2hhaS5hbGl5dW5jcy5jb20vODQ2MDAzYTdhN2UxNGM5NWI3YTZiMTIzZDAyNTk0YTMvc25hcHNob3RzLzIzOWEwMmZjZGM5OTQ5ZWQ4MmFhMmZkNWM1NTFmNjU2LTAwMDAxLmpwZz9FeHBpcmVzPTE2MjY5NDk0MzcmT1NTQWNjZXNzS2V5SWQ9TFRBSTRGZkQ2M3pvcW5tNmNraUJGZlhaJlNpZ25hdHVyZT14eUdYa1dZSXNISlRXTmRWUkp1Z0t5eXRZck0lM0QiLCJEdXJhdGlvbiI6MTYuMjc2N30sIkFjY2Vzc0tleUlkIjoiU1RTLk5VU2hhNTl1YTdMaW9Md3I1bWJGajF3YUUiLCJBY2Nlc3NLZXlTZWNyZXQiOiJCZGlZeTdRZXU3R0xzanNKQVNqNkZpVWVaWlVWS1N1M2pUUExmTnRVb3lrTiIsIlJlZ2lvbiI6ImNuLXNoYW5naGFpIiwiQ3VzdG9tZXJJZCI6MTQ4MjUyNDAyNTQyMTc1MH0', // 后端根据id获取授权码
+
+        }, function(player) {
+            console.log('播放器创建好了。')
+        });
+    </script>
+
+</body>
+
+</html>

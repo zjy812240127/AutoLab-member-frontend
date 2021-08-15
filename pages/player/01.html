@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://g.alicdn.com/de/prismplayer/2.8.1/skins/default/aliplayer-
+min.css" />
+    <script charset="utf-8" type="text/javascript" src="https://g.alicdn.com/de/prismplayer/2.8.1/aliplayer-min.js"></script>
+</head>
+
+<body>
+    <div class="prism-player" id="J_prismPlayer"></div>
+    <script>
+        var player = new Aliplayer({
+            id: 'J_prismPlayer',
+            width: '100%',
+            autoplay: false,
+            cover: 'http://liveroom-img.oss-cn-qingdao.aliyuncs.com/logo.png',
+            //播放配置
+            //播放方式一：支持播放地址播放,此播放优先级最高，此种方式不能播放加密视频,地址可以从阿里云获取
+            source: 'https://outin-a3706095dee511eba0a600163e1c60dc.oss-cn-shanghai.aliyuncs.com/sv/28b52173-17aa4118d68/28b52173-17aa4118d68.mp4?Expires=1626948694&OSSAccessKeyId=LTAI4FfD63zoqnm6ckiBFfXZ&Signature=92DDmIpbsYh4vEQ2skkGW8yD2mc%3D',
+
+        }, function(player) {
+            console.log('播放器创建好了。')
+        });
+    </script>
+
+</body>
+
+</html>
